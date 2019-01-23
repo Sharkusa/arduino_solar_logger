@@ -1,0 +1,12 @@
+#!/usr/bin/python
+import Adafruit_BBIO.GPIO as GPIO
+outPin="P9_23"
+GPIO.setup(outPin,GPIO.OUT)
+from time import sleep
+#for i in range(0,1):
+GPIO.output(outPin,GPIO.HIGH)
+sleep(.5)
+GPIO.output(outPin,GPIO.LOW)
+sleep(.5)
+GPIO.cleanup()
+
