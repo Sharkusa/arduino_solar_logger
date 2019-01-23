@@ -1,0 +1,500 @@
+   12  cd /etc/init.d/
+   13  ls
+   14  htop
+   15  cd /root/utils/update
+   16  cd /root/utils/
+   17  ls
+   18  cd update_miner.sh 
+   19  nano update_miner.sh 
+   20  nano update_register.sh
+   21  mv update_register.sh 1update_register.sh
+   22  ls
+   23  nano update_status.sh
+   24  nano update_miner.sh
+   25  nano update_emergency.sh
+   26  nano firewall.sh
+   27  nano run_in_screen.sh
+   28  sudo reboot now
+   29  cd /root/utils/
+   30  ls
+   31  mv run_in_screen.sh  1run_in_screen.sh
+   32  ls
+   33  sudo reboot now
+   34  htop
+   35  sudo kill 1180
+   36  htop
+   37  sudo vim /root/start.sh 
+   38  sudo mv /root/start.sh /root/1start.sh
+   39  sudo reboot now
+   40  ls
+   41  cd /root
+   42  ls
+   43  cd miner
+   44  ls
+   45  nano miner
+   46  nano xminer.sh
+   47  sudo mv xminer.sh 1xminer.sh
+   48  sudo reboot now
+   49  htop
+   50  sudo mv xminer.sh 1xminer.shclear
+   51  clear
+   52  ./veriumMiner/cpuminer -o stratum+tcp://vrm.n3rd3d.com:3332 -u Longhorn.CPU6e -p 1test1 --api-bind 0.0.0.0:4048 -t20
+   53  screen
+   54  htop
+   55  screen -r
+   56  screen 
+   57  htop
+   58  screen -r
+   59  screen -xr
+   60  htop
+   61  screen -r
+   62  screen -xr
+   63  ./veriumMiner/cpuminer -o stratum+tcp://us.vrm.n3rd3d.com:3332 -u Longhorn.CPU6e -p 1test1 --api-bind 0.0.0.0:4048 -t20
+   64  top
+   65  sudo kill 703
+   66  screen -r
+   67  screen -xr
+   68  ./veriumMiner/cpuminer -o stratum+tcp://vrm.n3rd3d.com:3332 -u Longhorn.CPU6e -p 1test1 --api-bind 0.0.0.0:4048 -t20
+   69  ./veriumMiner/cpuminer -o stratum+tcp://vrm.n3rd3d.com:3332 -u Longhorn.CPU6e -p 1test1 --api-bind 0.0.0.0:4048 -t12
+   70  ./veriumMiner/cpuminer -o stratum+tcp://vrm.n3rd3d.com:3332 -u Longhorn.CPU6e -p 1test1 --api-bind 0.0.0.0:4048 -t32
+   71  htop
+   72  screen -xr
+   73  screen -r
+   74  htop
+   75  sudo kill 706
+   76  top
+   77  screen 
+   78  ./veriumMiner/cpuminer -o stratum+tcp://vrm.n3rd3d.com:3332 -u Longhorn.CPU6e -p 1test1 --api-bind 0.0.0.0:4048 -t3
+   79  ./veriumMiner/cpuminer -o stratum+tcp://vrm.n3rd3d.com:3332 -u Longhorn.CPU6e -p 1test1 --api-bind 0.0.0.0:4048 -t10
+   80  ./veriumMiner/cpuminer -o stratum+tcp://vrm.n3rd3d.com:3332 -u Longhorn.CPU6e -p 1test1 --api-bind 0.0.0.0:4048 -t6
+   81  ./veriumMiner/cpuminer -o stratum+tcp://vrm.n3rd3d.com:3332 -u Longhorn.CPU6e -p 1test1 --api-bind 0.0.0.0:4048 -t1
+   82  ./veriumMiner/cpuminer -o stratum+tcp://vrm.n3rd3d.com:3332 -u Longhorn.CPU6e -p 1test1 --api-bind 0.0.0.0:4048 -t32
+   83  ./veriumMiner/cpuminer -o stratum+tcp://vrm.n3rd3d.com:3332 -u Longhorn.CPU6e -p 1test1 --api-bind 0.0.0.0:4048 -t12
+   84  ./veriumMiner/cpuminer -o stratum+tcp://vrm.n3rd3d.com:3332 -u Longhorn.CPU6e -p 1test1 --api-bind 0.0.0.0:4048 -t6
+   85  ./veriumMiner/cpuminer -o stratum+tcp://vrm.n3rd3d.com:3332 -u Longhorn.CPU6e -p 1test1 --api-bind 0.0.0.0:4048 -t4
+   86  top
+   87  sudo kill 645
+   88  top
+   89  ./veriumMiner/cpuminer -o stratum+tcp://vrm.n3rd3d.com:3332 -u Longhorn.CPU6e -p 1test1 --api-bind 0.0.0.0:4048 -t4
+   90  ./veriumMiner/cpuminer -o stratum+tcp://vrm.n3rd3d.com:3332 -u Longhorn.CPU6e -p 1test1 --api-bind 0.0.0.0:4048 -t4
+   91  ./veriumMiner/cpuminer -o stratum+tcp://vrm.n3rd3d.com:3332 -u Longhorn.CPU6e -p 1test1 --api-bind 0.0.0.0:4048 -t2
+   92  ./veriumMiner/cpuminer -o stratum+tcp://vrm.n3rd3d.com:3332 -u Longhorn.CPU6e -p 1test1 --api-bind 0.0.0.0:4048 -t32
+   93  htop
+   94  screen -r
+   95  screen -r
+   96  top
+   97  sudo kill 662
+   98  top
+   99  ./veriumMiner/cpuminer -o stratum+tcp://vrm.n3rd3d.com:3332 -u Longhorn.CPU6e -p 1test1 --api-bind 0.0.0.0:4048 -t6
+  100  ./veriumMiner/cpuminer -o stratum+tcp://vrm.n3rd3d.com:3332 -u Longhorn.CPU6e -p 1test1 --api-bind 0.0.0.0:4048 -t2
+  101  ./veriumMiner/cpuminer -o stratum+tcp://vrm.n3rd3d.com:3332 -u Longhorn.CPU6e -p 1test1 --api-bind 0.0.0.0:4048 -t4
+  102  top
+  103  sudo kill 653
+  104  screen
+  105  pwd
+  106  ls
+  107  ls
+  108  ls -la
+  109  ls -a
+  110  nano debug.log
+  111  rm debug.log 
+  112  ls
+  113  ls
+  114  rm debug.log 
+  115  screen -r
+  116  top
+  117  sudo kill 651
+  118  top
+  119  screen
+  120  htop
+  121  top
+  122  sudo kill 21673
+  123  top
+  124  ./veriumMiner/cpuminer -o stratum+tcp://vrm.n3rd3d.com:3332 -u Longhorn.CPU6e -p 1test1 --api-bind 0.0.0.0:4048 -t12
+  125  ./veriumMiner/cpuminer -o stratum+tcp://vrm.n3rd3d.com:3332 -u Longhorn.CPU6e -p 1test1 --api-bind 0.0.0.0:4048 -t2
+  126  top
+  127  sudo kill 710
+  128  ./veriumMiner/cpuminer -o stratum+tcp://vrm.n3rd3d.com:3332 -u Longhorn.CPU6e -p 1test1 --api-bind 0.0.0.0:4048 -t2
+  129  ./veriumMiner/cpuminer -o stratum+tcp://vrm.n3rd3d.com:3332 -u Longhorn.CPU6e -p 1test1 --api-bind 0.0.0.0:4048 -t6
+  130  ./veriumMiner/cpuminer -o stratum+tcp://vrm.n3rd3d.com:3332 -u Longhorn.CPU6e -p 1test1 --api-bind 0.0.0.0:4048 -t12
+  131  sudo shutdown now
+  132  sudo ./veriumMiner/cpuminer -o stratum+tcp://vrm.n3rd3d.com:3332 -u Longhorn.CPU6e -p 1test1 --api-bind 0.0.0.0:4048 -t12
+  133  ls
+  134  sudo mkdir controller
+  135  ls
+  136  cd controller
+  137  sudo scp root@144.202.77.95:/root/controller/managerServer.py .
+  138  sudo scp root@144.202.77.95:/root/controller/procStart.sh .
+  139  ls
+  140  sudo nano managerServer.py
+  141  @d1_test_server:~/controller# ./managerServer.py
+  142  root@d1_test_server:~/controller# ./managerServer.py
+  143  sudo root@d1_test_server:~/controller# ./managerServer.py
+  144  miner@d1_test_server:~/controller# ./managerServer.py
+  145  ./managerServer.py
+  146  sudo nano managerServer.py
+  147  ls -l
+  148  sudo nano managerServer.py
+  149  sudo root@d1_test_server:~/controller# ./managerServer.py
+  150  root@d1_test_server:~/controller# ./managerServer.py
+  151  sudo nano managerServer.py
+  152  root@d1_test_server:~/controller# ./managerServer.py
+  153  ./managerServer.py
+  154  sudo nano managerServer.py
+  155  sudo nano managerServer.py
+  156  ./managerServer.py
+  157  sudo nano managerServer.py
+  158  ./managerServer.py
+  159  cd ../
+  160  root@d1_test_server:~/controller# ./managerServer.py
+  161  miner@192.168.88.288:~/controller# ./managerServer.py
+  162  cd controller
+  163  miner@192.168.88.288:~/controller# ./managerServer.py
+  164  root@192.168.88.288:~/controller# ./managerServer.py
+  165  sudo nano managerServer.py
+  166  ./managerServer.py
+  167  sudo nano managerServer.py
+  168  ./managerServer.py
+  169  sudo root@192.168.88.288:~/controller# ./managerServer.py
+  170  sudo root@192.168.88.228:~/controller# ./managerServer.py
+  171  root@192.168.88.228:~/controller# ./managerServer.py
+  172  miner@192.168.88.228:~/controller# ./managerServer.py
+  173  sudo miner@192.168.88.228:~/controller# ./managerServer.py
+  174  sudo root@192.168.88.228:~/controller# ./managerServer.py
+  175  root@192.168.88.228:~/controller# ./managerServer.py
+  176  sudo nano managerServer.py
+  177  ./managerServer.py
+  178  cd ~/controller
+  179  ls
+  180  sudo nano managerServer.py
+  181  top
+  182  kill -9 706
+  183  top
+  184  htop
+  185  py
+  186  top
+  187  kill -9 650
+  188  ls
+  189  cd controller
+  190  ls
+  191  sudo cp ~/files/managerServer.py .
+  192  ls -l
+  193  time
+  194  date
+  195  ./managerServer.py
+  196  sudo nano managerServer.py
+  197  sudo nano managerServer.py
+  198  ./managerServer.py
+  199  sudo nano managerServer.py
+  200  sudo nano managerServer.py
+  201  ./managerServer.py
+  202  sudo nano managerServer.py
+  203  ls
+  204  sudo mv managerServer.py managerServer_new.py
+  205  ls
+  206  sudo cp ~/files/managerServer_old.py .
+  207  sudo cp ~/files/managerServer_old_mod.py .
+  208  ls
+  209  sudo mv managerServer_old_mod.py managerServer.py
+  210  ls
+  211  sudo cp managerServer.py  managerServer_old_mod.py
+  212  ./managerServer.py
+  213  sudo ./managerServer.py
+  214  ls
+  215  ls -l
+  216  sudo chmod 755 managerServer.py
+  217  ls -l
+  218  ./managerServer.py
+  219  sudo nano managerServer.py
+  220  sudo reboot now
+  221  htop
+  222  ls
+  223  cd controller
+  224  sudo scp root@144.202.77.95:/root/controller/managerServer.py .controllerx.py
+  225  ls
+  226  ls -l
+  227  ls -la
+  228  cp .controllerx.py controllerx.py
+  229  sudo cp .controllerx.py controllerx.py
+  230  ls
+  231  ./managerServer.py
+  232  ./managerServer.py
+  233  sudo nano managerServer.py
+  234  ls
+  235  sudo nano controllerx.py
+  236  sudo nano controllerx.py
+  237  top
+  238  cd ~/controller
+  239  ./managerServer.py
+  240  sudo nano managerServer.py
+  241  ./managerServer.py
+  242  ls
+  243  ./managerServer_new.py
+  244  sudo nano managerServer_new.py
+  245  ./managerServer_new.py
+  246  sudo nano managerServer_new.py
+  247  ./managerServer_new.py
+  248  ./managerServer.py
+  249  sudo nano managerServer.py
+  250  ./managerServer.py
+  251  sudo nano managerServer.py
+  252  ./managerServer.py
+  253  sudo nano managerServer.py
+  254  ./managerServer.py
+  255  sudo nano managerServer.py
+  256  ./managerServer.py
+  257  sudo nano managerServer.py
+  258  ./managerServer.py
+  259  ls
+  260  sudo controllerx.py
+  261  sudo nano controllerx.py
+  262  ./controllerx.py
+  263  sudo nano controllerx.py
+  264  ./controllerx.py
+  265  sudo nano controllerx.py
+  266  ./controllerx.py
+  267  sudo nano controllerx.py
+  268  ./controllerx.py
+  269  sudo nano controllerx.py
+  270  ./controllerx.py
+  271  ./controllerx.py
+  272  ./managerServer.py
+  273  sudo nano controllerx.py
+  274  sudo nano managerServer.py
+  275  sudo nano managerServer.py
+  276  ./managerServer.py
+  277  sudo nano managerServer.py
+  278  sudo nano managerServer.py
+  279  ./managerServer.py
+  280  date
+  281  timedatectl list-timezones
+  282  sudo timedatectl set-timezone America/Chicago
+  283  date
+  284  sudo crontab -e
+  285  sudo crontab -r
+  286  sudo crontab -e
+  287  sudo crontab -l
+  288  sudo nano managerServer.py
+  289  nano /etc/init.d/miner
+  290  pwd
+  291  nano /etc/init.d/miner
+  292  sudo update-rc.d miner defaults
+  293  sudo shutdown now
+  294  htop
+  295  sudo kill 705
+  296  htop
+  297  sudo nano managerServer.py
+  298  ls
+  299  cd controller
+  300  sudo nano managerServer.py
+  301  nano /etc/init.d/miner
+  302  sudo update-rc.d miner defaults
+  303  sudo reboot now
+  304  top
+  305  htop
+  306  tail -f /var/log/syslog
+  307  cd /var/log
+  308  ls
+  309  tail -f /var/log/lastlog
+  310  tail -f /var/log/miner.log
+  311  sudo nano managerServer.py
+  312  sudo nano /control/managerServer.py
+  313  sudo nano ~/control/managerServer.py
+  314  sudo nano /home/control/managerServer.py
+  315  cd ~
+  316  ls
+  317  sudo nano ~/controller/managerServer.py
+  318  ./managerServer.py
+  319  cd controller
+  320  ./managerServer.py
+  321  nano /etc/init.d/miner
+  322  sudo update-rc.d miner defaults
+  323  /etc/init.d/miner start
+  324  sudo /etc/init.d/miner start
+  325  sudo reboot now
+  326  htop
+  327  date
+  328  date
+  329  ls -l /etc/init.d/miner
+  330  sudo chown /etc/init.d/miner
+  331  sudo chown root /etc/init.d/miner
+  332  /etc/init.d/miner start
+  333  sudo /etc/init.d/miner start
+  334  sudo reboot now
+  335  htop
+  336  sudo chown miner /etc/init.d/miner
+  337  nano /etc/init.d/miner
+  338  sudo update-rc.d miner defaults
+  339  sudo /etc/init.d/miner start
+  340  ./managerServer.py
+  341  cd controller
+  342  ./managerServer.py
+  343  sudo reboot now
+  344  htop
+  345  htop
+  346  sudo nano /home/control/managerServer.py
+  347  sudo nano /home/controller/managerServer.py
+  348  ls
+  349  cd controller
+  350  ls
+  351  ./managerServer.py
+  352  sudo nano /home/controller/managerServer.py
+  353  sudo nano managerServer.py
+  354  top
+  355  sudo kill -9 787
+  356  top
+  357  ./managerServer.py
+  358  sudo nano /controller/managerServer.py
+  359  sudo nano ~/controller/managerServer.py
+  360  sudo shutdown now
+  361  htop
+  362  htop
+  363  cd controller
+  364  ls
+  365  sudo mkdir code_bkb
+  366  mv controllerx.py code_bkb
+  367  sudo mv controllerx.py code_bkb
+  368  sudo mv managerServer_new.py code_bkb
+  369  sudo mv  managerServer_old_mod.py code_bkb
+  370  ls
+  371  cd code_bkb
+  372  ls
+  373  ls
+  374  cd ../
+  375  ls
+  376  sudo mv managerServer.py code_bkb
+  377  ls
+  378  sudo scp root@144.202.77.95:/root/controller/managerServer.py .
+  379  ls
+  380  sudo scp root@144.202.77.95:/root/controller/code_bkp .
+  381  sudo scp -pr root@144.202.77.95:/root/controller/code_bkp .
+  382  clear
+  383  ls
+  384  ls code_bkp
+  385  cd code_bkb
+  386  ls
+  387  nano managerServer.py
+  388  sudo nano ~/controller/managerServer.py
+  389  ./managerServer.py
+  390  cd controller
+  391  ls
+  392  ls -l
+  393  ./managerServer.py
+  394  sudo nano ~/controller/managerServer.py
+  395  ./managerServer.py
+  396  sudo nano ~/controller/managerServer.py
+  397  ./managerServer.py
+  398  sudo nano ~/controller/managerServer.py
+  399  ./managerServer.py
+  400  sudo nano ~/controller/managerServer.py
+  401  ./managerServer.py
+  402  sudo nano ~/controller/managerServer.py
+  403  ./managerServer.py
+  404  sudo nano ~/controller/managerServer.py
+  405  sudo nano ~/controller/managerServer.py
+  406  sudo nano ~/controller/managerServer.py
+  407  ./managerServer.py
+  408  sudo nano ~/controller/managerServer.py
+  409  ./managerServer.py
+  410  sudo nano ~/controller/managerServer.py
+  411  ./managerServer.py
+  412  sudo nano ~/controller/managerServer.py
+  413  ./managerServer.py
+  414  sudo nano ~/controller/managerServer.py
+  415  ./managerServer.py
+  416  ./managerServer.py
+  417  ./managerServer.py
+  418  sudo shutdown now
+  419  htop
+  420  sudo kill -9 703
+  421  htop
+  422  htop
+  423  htop
+  424  htop
+  425  cd /controller
+  426  ls
+  427  cd controller
+  428  ./managerServer.py
+  429  exit
+  430  htop
+  431  ./managerServer.py
+  432  cd controller
+  433  ./managerServer.py
+  434  htop
+  435  cd controller
+  436  ./managerServer.py
+  437  htop
+  438  crontab -l
+  439  sudo crontab -l
+  440  htop
+  441  date
+  442  htop
+  443  htop
+  444  htop
+  445  htop
+  446  htop
+  447  sudo nano ~/controller/managerServer.py
+  448  crontab -l
+  449  sudo crontab -l
+  450  htop
+  451  htop
+  452  nano /etc/init.d/miner
+  453  /etc/init.d/miner start
+  454  sudo /etc/init.d/miner start
+  455  htop
+  456  sudo reboot now
+  457  htop
+  458  sudo shutdown now
+  459  htop
+  460  sudo /etc/init.d/miner start
+  461  sudo /etc/init.d/miner stop
+  462  sudo /etc/init.d/miner start
+  463  sudo crontab -e
+  464  sudo /etc/init.d/miner stop
+  465  htop
+  466  sudo /etc/init.d/miner stop
+  467  htop
+  468  sudo crontab -e
+  469  sudo crontab -e
+  470  sudo crontab -l
+  471  sudo crontab -e
+  472  sudo /etc/init.d/miner start
+  473  sudo /etc/init.d/miner stop
+  474  sudo /etc/init.d/miner start
+  475  sudo crontab -e
+  476  sudo reboot now
+  477  sudo crontab -e
+  478  sudo /etc/init.d/miner stop
+  479  /etc/init.d/miner stop
+  480  sudo /etc/init.d/miner stop
+  481  nano /etc/init.d/miner 
+  482  sudo /etc/init.d/miner status
+  483  /etc/init.d/miner status
+  484  /etc/init.d/miner start
+  485  nano /etc/init.d/miner 
+  486  sudo /etc/init.d/miner start
+  487  cat /var/log/miner.log
+  488  cat /var/log/miner.err
+  489  nano /etc/init.d/miner 
+  490  sudo /etc/init.d/miner start
+  491  sudo /etc/init.d/miner stop
+  492  sudo /etc/init.d/miner stop
+  493  sudo /etc/init.d/miner start
+  494  sudo /etc/init.d/miner stop
+  495  nano /etc/init.d/miner 
+  496  sudo crontab -e
+  497  crontab -e
+  498  sudo /etc/init.d/miner start
+  499  sudo /etc/init.d/miner stop
+  500  sudo reboot now
+  501  sudo /etc/init.d/miner start
+  502  cat /var/log/miner.log
+  503  cat /var/log/miner.err
+  504  cat /var/log/miner.log
+  505  ls -l /var/log/
+  506  tail -f /var/log/miner.log
+  507  nano /etc/init.d/miner 
+  508  htop
+  509  ls
+  510  pwd
+  511  history > history.txt
