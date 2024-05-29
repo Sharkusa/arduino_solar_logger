@@ -13,7 +13,7 @@
 // reqBuff =  10 Digit Request ID based on a Random number. 
 
 //Configuration Changes for new Logger Installation
-// 1. ssid = "AIRTEL_E5172_4D8B"; Please use your Access Point ID
+// 1. ssid = "AIRTEL"; Please use your Access Point ID
 // 2. password = ""; Please use your Access Point password.
 // 3. ip = "192.168.1.2"; Please use the I.P address of the server to which you are posting HTTP Request.
 // 4. port = "80"; By default port = 80 unless your HTTP Server is running on other Port.
