@@ -14,7 +14,7 @@
 
 //Configuration Changes for new Logger Installation
 // 1. ssid = "AIRTEL_E5172_4D8B"; Please use your Access Point ID
-// 2. password = "80805B49C80"; Please use your Access Point password.
+// 2. password = ""; Please use your Access Point password.
 // 3. ip = "192.168.1.2"; Please use the I.P address of the server to which you are posting HTTP Request.
 // 4. port = "80"; By default port = 80 unless your HTTP Server is running on other Port.
 // 5. scriptpath = "/cgi-bin/ardLogger_crypt.py"; This is the Path of Python program that is receiving data from Arduino
@@ -50,8 +50,8 @@ float chargeAmps =0;
 char buffer[14];
 
 String ssid = "Alcatel";
-String password = "8089416980894169";
-//String ip = "144.202.75.241";
+String password = "";
+//String ip = "";
 String ip = "192.168.88.234";
 String ARD_ID = "01";
 String port = "80";
